@@ -1,4 +1,8 @@
-platform :ios, '8.0'
-use_frameworks!
+# platform :ios, '8.0'
 
-pod 'AFNetworking'
+target 'Photo Map' do
+
+  use_frameworks!
+  pod 'AFNetworking'
+
+end
